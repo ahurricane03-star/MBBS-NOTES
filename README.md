@@ -116,7 +116,7 @@ Folder → /root
 
 
 
-https://your-username.github.io/MBBS-NOTES/
+https://ahurricane03-star.github.io/MBBS-NOTES/
 
 
 📥 Adding New Notes
