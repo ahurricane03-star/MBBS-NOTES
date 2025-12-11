@@ -8,73 +8,78 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            margin: 20px;
-            background-color: #fefefe;
+            background-color: #f9f9f9;
+            padding: 20px;
             color: #333;
         }
         h1, h2, h3 {
             color: #2c3e50;
         }
         ul {
-            margin-left: 20px;
+            margin-bottom: 20px;
         }
-        li {
-            margin-bottom: 5px;
+        .topic {
+            margin-bottom: 30px;
+            padding: 15px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .drug {
+            margin-left: 20px;
         }
     </style>
 </head>
 <body>
-
     <h1>Pharmacology Notes</h1>
 
-    <h2>1. General Pharmacology</h2>
-    <ul>
-        <li>Pharmacokinetics – Absorption, Distribution, Metabolism, Excretion (ADME)</li>
-        <li>Pharmacodynamics – Mechanism of drug action</li>
-        <li>Drug interactions – Synergism, Antagonism</li>
-        <li>Adverse drug reactions – Type A (dose-related), Type B (idiosyncratic)</li>
-    </ul>
+    <div class="topic">
+        <h2>1. General Pharmacology</h2>
+        <ul>
+            <li>Definition of Pharmacology</li>
+            <li>Pharmacokinetics: Absorption, Distribution, Metabolism, Excretion</li>
+            <li>Pharmacodynamics: Mechanism of Action, Dose-Response Relationship</li>
+        </ul>
+    </div>
 
-    <h2>2. Autonomic Drugs</h2>
-    <ul>
-        <li>Sympathomimetics – e.g., Epinephrine</li>
-        <li>Sympatholytics – e.g., Propranolol</li>
-        <li>Parasympathomimetics – e.g., Pilocarpine</li>
-        <li>Parasympatholytics – e.g., Atropine</li>
-    </ul>
+    <div class="topic">
+        <h2>2. Autonomic Drugs</h2>
+        <ul>
+            <li>Adrenergic Agonists
+                <ul class="drug">
+                    <li>Example: Epinephrine, Norepinephrine</li>
+                </ul>
+            </li>
+            <li>Adrenergic Antagonists
+                <ul class="drug">
+                    <li>Example: Propranolol, Prazosin</li>
+                </ul>
+            </li>
+            <li>Cholinergic Drugs
+                <ul class="drug">
+                    <li>Example: Pilocarpine, Atropine</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 
-    <h2>3. Cardiovascular Drugs</h2>
-    <ul>
-        <li>Antihypertensives – ACE inhibitors, Beta-blockers, Diuretics</li>
-        <li>Antianginal – Nitrates, Calcium channel blockers</li>
-        <li>Antiarrhythmics – Class I–IV drugs</li>
-        <li>Anticoagulants – Heparin, Warfarin</li>
-    </ul>
+    <div class="topic">
+        <h2>3. Antibiotics</h2>
+        <ul>
+            <li>Penicillins</li>
+            <li>Cephalosporins</li>
+            <li>Aminoglycosides</li>
+        </ul>
+    </div>
 
-    <h2>4. Antibiotics & Antimicrobials</h2>
-    <ul>
-        <li>Beta-lactams – Penicillins, Cephalosporins</li>
-        <li>Aminoglycosides – Gentamicin</li>
-        <li>Macrolides – Erythromycin</li>
-        <li>Fluoroquinolones – Ciprofloxacin</li>
-        <li>Antifungals – Amphotericin B, Azoles</li>
-    </ul>
-
-    <h2>5. CNS Drugs</h2>
-    <ul>
-        <li>Analgesics – Opioids, NSAIDs</li>
-        <li>Antiepileptics – Phenytoin, Valproate</li>
-        <li>Antidepressants – SSRIs, TCAs</li>
-        <li>Antipsychotics – Typical and Atypical</li>
-        <li>Parkinson’s – Levodopa, Dopamine agonists</li>
-    </ul>
-
-    <h2>6. Endocrine Drugs</h2>
-    <ul>
-        <li>Insulin and oral hypoglycemics – Metformin, Sulfonylureas</li>
-        <li>Thyroid – Levothyroxine</li>
-        <li>Adrenal – Corticosteroids</li>
-    </ul>
+    <div class="topic">
+        <h2>4. NSAIDs & Analgesics</h2>
+        <ul>
+            <li>Paracetamol</li>
+            <li>Ibuprofen</li>
+            <li>Aspirin</li>
+        </ul>
+    </div>
 
 </body>
 </html>
